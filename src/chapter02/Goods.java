@@ -8,6 +8,7 @@ public class Goods {
 	
 	public static int countOfGoods;
 	
+	
 	public Goods() {
 		// Goods.countOfGoods++;
 		// Goods.countOfGoods += 1;
