@@ -1,4 +1,14 @@
-package paint;
+package kr.co.itcen.paint.main;
+
+import kr.co.itcen.paint.i.Drawable;
+import kr.co.itcen.paint.i.Resizable;
+import kr.co.itcen.paint.point.ColorPoint;
+import kr.co.itcen.paint.point.Point;
+import kr.co.itcen.paint.shape.Circle;
+import kr.co.itcen.paint.shape.Rect;
+import kr.co.itcen.paint.shape.Shape;
+import kr.co.itcen.paint.shape.Triangle;
+import kr.co.itcen.paint.text.GraphicText;
 
 public class Main {
 
@@ -15,6 +25,16 @@ public class Main {
 		draw(new Rect());
 		draw(new Circle());
 		draw(new GraphicText("Hello"));
+		
+		Shape s1 = new Triangle();
+		//Down Casting : 명시적(Explicity)
+		((Triangle)s1).setX1(10);
+		
+		//Up Casting : 암시적(Implicity)
+		Rect rect = new Rect();
+		Shape s2 = rect;//(Shape)rect; 생략 가능
+		
+		
 		
 		// instanceof 연산자
 		Shape s = new Circle();

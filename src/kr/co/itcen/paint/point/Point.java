@@ -1,4 +1,6 @@
-package paint;
+package kr.co.itcen.paint.point;
+
+import kr.co.itcen.paint.i.Drawable;
 
 public class Point implements Drawable {
 	private int x;

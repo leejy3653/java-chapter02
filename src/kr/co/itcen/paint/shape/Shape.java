@@ -1,4 +1,6 @@
-package paint;
+package kr.co.itcen.paint.shape;
+
+import kr.co.itcen.paint.i.Drawable;
 
 public abstract class Shape implements Drawable {
 
