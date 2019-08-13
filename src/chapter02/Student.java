@@ -10,7 +10,7 @@ public class Student extends Person {
 		
 		// 명시적으로 부모 생성자 호출시에는 자동으로 부모의 기본생성자 
 		//호출을 하지 않는다.
-	
+	 
 		super("안대혁");
 		System.out.println("Student() called");
 	}

@@ -14,7 +14,7 @@ public class GoodsApp {
 		
 		camera.showInfo();
 		System.out.println(camera.calcDiscountPrice(0.5f));
-		
+		 
 		Goods goods2 = new Goods();
 		Goods goods3 = new Goods();
 		System.out.println(Goods.countOfGoods);

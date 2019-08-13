@@ -14,4 +14,4 @@ public class GraphicText implements Drawable {
 		System.out.println("\"" + text + "\" 를 그렸습니다.");
 	}
 
-}
+} 

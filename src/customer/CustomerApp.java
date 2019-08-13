@@ -12,7 +12,7 @@ public class CustomerApp {
 
 		// private은 외부에서 접근 X
 		// c.age = 10;
-		c.setAge(10);
+		c.setAge(10); 
 	}
 
 }

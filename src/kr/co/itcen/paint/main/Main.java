@@ -18,7 +18,7 @@ public class Main {
 		p1.setY(20);
 		draw(p1);
 		p1.show(false);
-		
+		 
 		draw(new Point(100, 200));
 		draw(new ColorPoint(300, 200, "yellow"));
 		draw(new Triangle());

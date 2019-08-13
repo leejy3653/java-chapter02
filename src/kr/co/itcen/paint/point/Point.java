@@ -26,7 +26,7 @@ public class Point implements Drawable {
 	public void setY(int y) {
 		this.y = y;
 	}
-
+ 
 	public void show() {
 		System.out.println(
 			"점[x=" + x + ", y=" + y + "] 를 그렸습니다.");

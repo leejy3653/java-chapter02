@@ -15,7 +15,7 @@ public class ArrayUtil {
 			result[i] = (int)source[i]; 
 		}
 		return result;
-	}
+	} 
 
 	public static int[] concat(int[] a1, int[] a2) {
 		int[] result = new int[a1.length + a2.length];

@@ -20,4 +20,4 @@ public abstract class Shape implements Drawable {
 		this.fillColor = fillColor;
 	}
 	
-}
+} 

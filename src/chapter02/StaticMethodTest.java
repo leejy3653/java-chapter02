@@ -17,7 +17,7 @@ public class StaticMethodTest {
 		// n = 10;
 		m = 20;
 	}
-
+ 
 	public void f3() {
 		f1();
 		// StaticMethodTest.f2()

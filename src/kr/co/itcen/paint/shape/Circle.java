@@ -25,7 +25,7 @@ public class Circle extends Shape {
 		this.y = y;
 	}
 
-
+ 
 	public int getRadius() {
 		return radius;
 	}

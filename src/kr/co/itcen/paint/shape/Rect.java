@@ -21,7 +21,7 @@ public class Rect extends Shape {
 	}
 	public void setY1(int y1) {
 		this.y1 = y1;
-	}
+	} 
 	public int getX2() {
 		return x2;
 	}

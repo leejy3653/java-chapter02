@@ -8,4 +8,4 @@ public class VIPCustomer extends Customer {
 		// 자식 클래스에서도 접근이 가능하다.
 		System.out.println(name);
 	}
-}
+} 

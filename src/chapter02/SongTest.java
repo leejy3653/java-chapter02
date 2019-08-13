@@ -19,6 +19,6 @@ public class SongTest {
 		Song song3 = new Song("사랑에 연습이 있었다면", "임재현");
 		song3.show();
 		
-	}
+	}  
 
 }

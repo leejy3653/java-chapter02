@@ -10,7 +10,7 @@ public class SwapTest {
 		swap1(i,j);
 		System.out.println(i+":"+j);
 		
-		
+		 
 		Value v1 = new Value(10);
 		Value v2 = new Value(20);
 		

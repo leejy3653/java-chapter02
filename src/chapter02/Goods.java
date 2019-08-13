@@ -12,7 +12,7 @@ public class Goods {
 	public Goods() {
 		// Goods.countOfGoods++;
 		// Goods.countOfGoods += 1;
-		countOfGoods += 1;
+		countOfGoods += 1; 
 	}
 	
 	public String getName() {
